@@ -1,7 +1,7 @@
-var $form = $('form#test-form'),
+var $form = $('#survey-form'),
     url = '****Your Google sheets request link****'
 
-$('#submit-form').on('click', function(e) {
+$('#submit').on('click', function(e) {
   e.preventDefault();
   var jqxhr = $.ajax({
     url: url,
